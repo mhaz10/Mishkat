@@ -17,4 +17,12 @@ class AppTextStyles {
     height: 1.5,
     letterSpacing: 0.18,
   );
+
+  static const TextStyle amiri16 = TextStyle(
+    fontFamily: AppFonts.amiri,
+    fontSize: 16,
+    fontWeight: FontWeight.normal,
+    height: 1.5,
+    letterSpacing: 0,
+  );
 }
