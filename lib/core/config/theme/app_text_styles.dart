@@ -10,6 +10,13 @@ class AppTextStyles {
     letterSpacing: 0.18,
   );
 
+  static const TextStyle amiri20 = TextStyle(
+    fontFamily: AppFonts.amiri,
+    fontSize: 20,
+    height: 1.5,
+    letterSpacing: 0,
+  );
+
   static const TextStyle amiri18 = TextStyle(
     fontFamily: AppFonts.amiri,
     fontSize: 18,
