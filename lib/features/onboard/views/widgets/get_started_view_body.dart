@@ -47,7 +47,7 @@ class GetStartedViewBody extends StatelessWidget {
           ),
           child: const Text('تسجيل دخول'),
           onPressed: () {
-
+            GoRouter.of(context).push(AppRoute.kCheckEmailView);
           },
         ),
       ],
