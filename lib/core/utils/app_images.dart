@@ -4,4 +4,6 @@ abstract class AppImages {
   static const String logo = 'assets/logo/mishkat_logo_with_out_text.png';
   static const String checkEmail = 'assets/images/check_email_logo.png';
   static const String forgetPassword = 'assets/images/forget_password.png';
+  static const String setNewPassword = 'assets/images/set_new_password.png';
+  static const String doneResetNewPassword = 'assets/images/done_reset_new_password.png';
 }
