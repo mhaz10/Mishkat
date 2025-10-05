@@ -3,15 +3,15 @@ import 'package:flutter_svg/svg.dart';
 import 'package:mishkat/core/config/theme/app_colors.dart';
 import 'package:mishkat/core/config/theme/app_text_styles.dart';
 import 'package:mishkat/core/helper/responsive/extensions/size_helper_extension.dart';
-import 'package:mishkat/core/helper/responsive/size_provider.dart';
 import 'package:mishkat/core/helper/validation/app_validator.dart';
 import 'package:mishkat/core/utils/app_icons.dart';
 import 'package:mishkat/core/utils/app_images.dart';
 import 'package:mishkat/core/widgets/custom_dropdown_form_field.dart';
 import 'package:mishkat/core/widgets/custom_elevated_button.dart';
 import 'package:mishkat/core/widgets/custom_text_form_field.dart';
-import 'package:mishkat/features/auth/views/widgets/custom_auth_by_account.dart';
-import 'package:mishkat/features/auth/views/widgets/custom_check_widget.dart';
+import 'package:mishkat/features/auth/presentation/views/widgets/custom_auth_by_account.dart';
+import 'package:mishkat/features/auth/presentation/views/widgets/custom_check_widget.dart';
+
 
 class SignupViewBody extends StatefulWidget {
   const SignupViewBody({super.key});

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mishkat/features/auth/views/widgets/login_view_body.dart';
+import 'package:mishkat/features/auth/presentation/views/widgets/login_view_body.dart';
 
 class LoginView extends StatelessWidget {
   const LoginView({super.key});

@@ -8,7 +8,8 @@ import 'package:mishkat/core/utils/app_icons.dart';
 import 'package:mishkat/core/utils/app_images.dart';
 import 'package:mishkat/core/widgets/custom_elevated_button.dart';
 import 'package:mishkat/core/widgets/custom_text_form_field.dart';
-import 'package:mishkat/features/auth/views/widgets/custom_auth_by_account.dart';
+import 'package:mishkat/features/auth/presentation/views/widgets/custom_auth_by_account.dart';
+
 
 class LoginViewBody extends StatefulWidget {
   const LoginViewBody({super.key});

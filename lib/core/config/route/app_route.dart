@@ -1,7 +1,9 @@
 import 'package:go_router/go_router.dart';
-import 'package:mishkat/features/auth/views/check_email_view.dart';
-import 'package:mishkat/features/auth/views/login_view.dart';
-import 'package:mishkat/features/auth/views/signup_view.dart';
+import 'package:mishkat/features/auth/presentation/views/check_email_view.dart';
+import 'package:mishkat/features/auth/presentation/views/forget_password_view.dart';
+import 'package:mishkat/features/auth/presentation/views/login_view.dart';
+import 'package:mishkat/features/auth/presentation/views/otp_view.dart';
+import 'package:mishkat/features/auth/presentation/views/signup_view.dart';
 import 'package:mishkat/features/onboard/views/get_started_view.dart';
 import 'package:mishkat/features/onboard/views/onboarding_view.dart';
 
@@ -11,6 +13,8 @@ abstract class AppRoute {
   static const String kSignupView = '/Signup';
   static const String kLoginView = '/Login';
   static const String kCheckEmailView = '/CheckEmail';
+  static const String kForgetPasswordView = '/ForgetPassword';
+  static const String kOtpView = '/Otp';
 
   static final router = GoRouter(
     routes: [
@@ -42,6 +46,18 @@ abstract class AppRoute {
         path: kCheckEmailView,
         name: 'CheckEmailView',
         builder: (context, state) => CheckEmailView(),
+      ),
+
+      GoRoute(
+        path: kForgetPasswordView,
+        name: 'ForgetPasswordView',
+        builder: (context, state) => ForgetPasswordView(),
+      ),
+
+      GoRoute(
+        path: kOtpView,
+        name: 'OtpView',
+        builder: (context, state) => OtpView(),
       ),
     ],
   );
